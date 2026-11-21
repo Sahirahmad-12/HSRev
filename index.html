@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise Pricing Cards</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="pricing-section" aria-labelledby="pricing-heading">
+    <div class="pricing-header">
+      <h1 id="pricing-heading">Simple, Transparent Plans</h1>
+      <p>Choose the tier that fits your team size and workflow needs.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- Plan 1 -->
+      <article class="pricing-card">
+        <div class="card-top">
+          <h2 class="plan-title">Starter</h2>
+          <p class="plan-desc">For small teams getting started with core tools.</p>
+          <p class="price">₹499 <span>/ month</span></p>
+        </div>
+
+        <ul class="feature-list">
+          <li>Up to 5 team members</li>
+          <li>Standard email support</li>
+          <li>Basic reporting</li>
+        </ul>
+
+        <button type="button" class="btn btn-secondary">Get Started</button>
+      </article>
+
+      <!-- Plan 2 (Featured / Popular) -->
+      <article class="pricing-card pricing-card--featured">
+        <span class="badge">Most Popular</span>
+        <div class="card-top">
+          <h2 class="plan-title">Growth</h2>
+          <p class="plan-desc">For growing teams needing automation and integrations.</p>
+          <p class="price">₹1,499 <span>/ month</span></p>
+        </div>
+
+        <ul class="feature-list">
+          <li>Up to 25 team members</li>
+          <li>Priority chat &amp; email support</li>
+          <li>API &amp; webhook integrations</li>
+          <li>Role-based access control</li>
+        </ul>
+
+        <button type="button" class="btn btn-primary">Start Growth Plan</button>
+      </article>
+
+      <!-- Plan 3 -->
+      <article class="pricing-card">
+        <div class="card-top">
+          <h2 class="plan-title">Enterprise</h2>
+          <p class="plan-desc">For organizations with custom security and SLA needs.</p>
+          <p class="price">Custom</p>
+        </div>
+
+        <ul class="feature-list">
+          <li>Unlimited team members</li>
+          <li>Dedicated account &amp; SLA support</li>
+          <li>SSO &amp; audit logs</li>
+        </ul>
+
+        <button type="button" class="btn btn-secondary">Contact Sales</button>
+      </article>
+    </div>
+  </section>
+</body>
+</html>
